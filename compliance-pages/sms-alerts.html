@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dual Wing SMS Alerts</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #071018;
+      --panel: #0d1722;
+      --text: #f5f8ff;
+      --muted: #9fb0c7;
+      --line: #223247;
+      --accent: #71d8ff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.55;
+    }
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 48px 20px;
+    }
+    section {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 24px;
+      margin: 18px 0;
+    }
+    h1, h2 { margin: 0 0 12px; }
+    p, li { color: var(--muted); }
+    strong, code { color: var(--text); }
+    a { color: var(--accent); }
+    .cta {
+      font-size: 1.25rem;
+      color: var(--text);
+    }
+    .example {
+      background: #071018;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 14px;
+      overflow-wrap: anywhere;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Dual Wing SMS Alerts</h1>
+    <p>Private backend readiness alerts for the Dual Wing trading analytics system.</p>
+
+    <section>
+      <h2>Opt In</h2>
+      <p class="cta">Text <strong>YES</strong> to <strong>+14245872540</strong> to receive Dual Wing SMS status alerts.</p>
+      <p>
+        These messages are low-frequency operational alerts, such as whether the Dual Wing backend is awake,
+        connected, and ready for the market day. Messages do not include trade recommendations, tickers,
+        strikes, account balances, or other sensitive trading details.
+      </p>
+      <p>
+        Message frequency varies. Message and data rates may apply. Consent is not a condition of purchase.
+        Reply <strong>STOP</strong> to unsubscribe. Reply <strong>HELP</strong> for help.
+      </p>
+    </section>
+
+    <section>
+      <h2>Example Messages</h2>
+      <div class="example">
+        <p><strong>User:</strong> YES</p>
+        <p><strong>Dual Wing:</strong> You are subscribed to Dual Wing SMS status alerts. Msg frequency varies. Msg & data rates may apply. Reply HELP for help or STOP to cancel.</p>
+        <p><strong>Dual Wing alert example:</strong> Good morning. Dual Wing is ready and active.</p>
+        <p><strong>User:</strong> HELP</p>
+        <p><strong>Dual Wing:</strong> Dual Wing SMS alerts provide private backend readiness updates. Reply STOP to cancel.</p>
+        <p><strong>User:</strong> STOP</p>
+        <p><strong>Dual Wing:</strong> You have been unsubscribed from Dual Wing SMS alerts. No more messages will be sent.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Policies</h2>
+      <p>
+        Review the <a href="privacy-policy.html">Privacy Policy</a> and
+        <a href="terms-and-conditions.html">Terms & Conditions</a>.
+      </p>
+    </section>
+  </main>
+</body>
+</html>
